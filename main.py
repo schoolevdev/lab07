@@ -1,5 +1,5 @@
 # Lab07vst.py
-# This is the Student Starting file of Lab07.
+# This is a program that both bubble sorts and calculates mean, median, and standard deviation
 #
 import math
 import random
@@ -79,7 +79,7 @@ def getSD(lst) -> float:
 #######################################
 # MAIN
 
-print("TOM TERRIFIC'S LAB07 VERSION 70")
+print("TOM TERRIFIC'S LAB07 VERSION 100")
 print()
 
 # Needed for 70-Point Version.
@@ -113,7 +113,7 @@ createList(list4,100)
 displayList(list4)
 bubbleSort(list4)
 displayList(list4)     
-print("Mean:                     ",getMean(list4))
-print("Median:                  ",getMedian(list4))
-print("Standard Deviation: ",getSD(list4))
+print("\nMean:              ",getMean(list4))
+print("Median:            ",getMedian(list4))
+print("Standard Deviation:",getSD(list4))
 
