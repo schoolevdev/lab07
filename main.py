@@ -1,6 +1,6 @@
 # Lab07vst.py
 # This is a program that both bubble sorts and calculates mean, median, and standard deviation
-#
+# Evin Lodder 12/8
 import math
 import random
 
